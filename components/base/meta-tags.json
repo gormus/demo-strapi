@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_base_meta_tags",
+  "info": {
+    "name": "meta-tags",
+    "icon": "search-dollar"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "maxLength": 160
+    },
+    "keywords": {
+      "type": "text"
+    }
+  }
+}

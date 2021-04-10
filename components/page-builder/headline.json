@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_builder_headlines",
+  "info": {
+    "name": "heading",
+    "icon": "heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3",
+        "h4",
+        "h5",
+        "h6"
+      ],
+      "private": false,
+      "required": true,
+      "default": "h2"
+    },
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

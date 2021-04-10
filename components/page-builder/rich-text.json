@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_builder_rich_texts",
+  "info": {
+    "name": "richText",
+    "icon": "paragraph",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "markdown": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

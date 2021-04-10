@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "Landing page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "teaser": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.main",
+      "required": true
+    },
+    "pageBuilder": {
+      "type": "dynamiczone",
+      "components": [
+        "page-builder.headline",
+        "page-builder.rich-text",
+        "page-builder.files",
+        "page-builder.image-gallery",
+        "page-builder.image",
+        "page-builder.video"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "metatags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.meta-tags"
+    }
+  }
+}

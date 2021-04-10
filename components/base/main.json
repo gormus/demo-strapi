@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_base_teaser",
+  "info": {
+    "name": "teaser",
+    "icon": "th-large",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
